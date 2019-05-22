@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Девайс</title>
+    <link rel="preload" href="fonts/gilroylight.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="fonts/gilroylight.woff" as="font" type="font/woff">
+    <link rel="preload" href="fonts/gilroyextrabold.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="fonts/gilroyextrabold.woff" as="font" type="font/woff">
+    <link rel="preload" href="fonts/opensanslight.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="fonts/opensanslight.woff" as="font" type="font/woff">
+    <link rel="preload" href="fonts/opensans.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="fonts/opensans.woff" as="font" type="font/woff">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+  </head>
+  <body class="inner-modal">
+
+    <section class="modal modal-letter">
+      <h2 class="visually-hidden">Форма обратной связи</h2>
+      <form class="letter-form" action="https://echo.htmlacademy.ru" method="post">
+        <p class="letter-item">
+          <label for="letter-name">Ваше имя:</label>
+          <input id="letter-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+        </p>
+        <p class="letter-item">
+          <label for="letter-mail">Ваш e-mail:</label>
+          <input id="letter-mail" type="email" name="email" value="" placeholder="email@example.com" required="required">
+        </p>
+        <p class="letter-item">
+          <label for="letter-comment">Текст письма:</label>
+          <textarea id="letter-comment" name="comment" placeholder="В свободной форме"></textarea>
+        </p>
+        <button class="button" type="submit">Отправить</button>
+      </form>
+      <button class="modal-close" type="button">Закрыть</button>
+    </section>
+
+  </body>
+</html>
